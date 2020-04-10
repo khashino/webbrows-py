@@ -11,9 +11,9 @@ def main():
     browser.get('http://www.bonyansystem.com/hr/login.php')
 
     userElem = browser.find_element_by_name('username')
-    userElem.send_keys('khashayar')  # admn no here
+    userElem.send_keys('')  # admn no here
     passwordElem = browser.find_element_by_name('password')
-    passwordElem.send_keys('25645')  # password here
+    passwordElem.send_keys('')  # password here
     loginElem = browser.find_element(By.XPATH, '//button[text()="Login"]')
     loginElem.click()
 
