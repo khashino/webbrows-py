@@ -16,9 +16,9 @@ def main():
     browser.get('http://lms13.iauec.ac.ir/index.php')
 
     userElem = browser.find_element_by_id('username')
-    userElem.send_keys('9511213732')  # admn no here
+    userElem.send_keys('')  # admn no here
     passwordElem = browser.find_element_by_id('password')
-    passwordElem.send_keys('0440721563')  # password here
+    passwordElem.send_keys('')  # password here
     loginElem = browser.find_element_by_class_name('submitBtn')
     loginElem.click()
 
